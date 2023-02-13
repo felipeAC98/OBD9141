@@ -6,6 +6,10 @@
 #ifndef OBD9141_H
 #define OBD9141_H
 #include "Arduino.h"
+#include <signal.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <wiringPi.h>
 
 // to do some debug printing.
 // #define OBD9141_DEBUG
